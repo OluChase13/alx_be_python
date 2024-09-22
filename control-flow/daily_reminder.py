@@ -6,11 +6,11 @@ match priority:
     case "high":
         reminder = "Reminder: '" + task + "' is of high priority."
     case "medium":
-        reminder = "The task '" + task + "' is of medium priority."
+        reminder = "Reminder: '" + task + "' is of medium priority."
     case "low":
-        reminder = "The task '" + task + "' is of low priority."
+        reminder = "Reminder: '" + task + "' is of low priority."
     case _:
-        reminder = "The task '" + task + "' has an unknown priority."
+        reminder = "Reminder: '" + task + "' has an unknown priority."
 if time_bound == "yes":
     reminder += " It requires immediate attention today!"
 print(reminder)
