@@ -14,6 +14,3 @@ match priority:
 if time_bound == "yes":
     reminder += " It requires immediate attention today!"
     print(reminder)
-elif time_bound == "no":
-    reminder += "Consider completing it when you have free time"
-    print(reminder)
