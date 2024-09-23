@@ -1,6 +1,6 @@
 #!/bin/bash
 Task = input("Enter your task: ").strip().capitalize()
-Priority = input("What is the priority level of this task? (high/medium/low): ").strip().lower()
+Priority = input("Priority(high/medium/low): ").strip().lower()
 Time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
 yes_time = "that requires immediate attention today!"
 no_time = "consider completing when you have time"
