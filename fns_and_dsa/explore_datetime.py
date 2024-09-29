@@ -17,5 +17,3 @@ def main():
 
 if __name__=="_main_":
     main()
-
- Enter the number of days to add to the current date:
